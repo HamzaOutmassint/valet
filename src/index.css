@@ -1,0 +1,25 @@
+@tailwind  base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Montserrat", system-ui;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+#hero_section {
+  background-image: linear-gradient(318.44deg, rgba(255, 255, 255, 0) 43.92%, rgba(196, 154, 108, 0.2) 92.03%),
+                    /* linear-gradient(41.98deg, rgba(255, 255, 255, 0) 54.63%, #C49A6C 96.31%), */
+                    linear-gradient(41.98deg, rgba(255, 255, 255, 0) 43.92%,  #C49A6C 149.03%)
+}
